@@ -1,0 +1,38 @@
+/*to remove the white borders from all for corners*/
+.body{
+
+}
+.navigationBar {
+position:absolute;
+width: 100%;
+top: 0;
+left:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000c21;
+
+}
+
+.leftf {
+    float: left;
+}
+.rightf
+{
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: red;
+}
